@@ -17,7 +17,7 @@
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
 //
-// -- This is a dual command --
+// -- This is a dual +command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
 //
 //
