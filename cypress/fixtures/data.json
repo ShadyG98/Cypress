@@ -1,0 +1,25 @@
+{
+    "valid": {
+      "name": "Jose Perez",
+      "email": "hello@cypress.io",
+      "phoneNumber": "12345678901",
+      "subject": "TEST TEST TEST TEST TEST",
+      "message": "TEST TEST TEST TEST TEST"
+    },
+    "invalid": {
+      "name": " ",
+      "email": "not-an-email",
+      "phoneNumber": "invalidPhone",
+      "subject": " ",
+      "message": " "
+    },
+    "errorMessages":{
+      "subjectError1": "Subject must be between 5 and 100 characters.",
+      "subjectBlank": "Subject may not be blank",
+      "messageCharacters": "Message must be between 20 and 2000 characters.",
+      "nameBlank": "Name may not be blank",
+      "phoneLength": "Phone must be between 11 and 21 characters.",
+      "phoneBlank": "Phone may not be blank",
+      "phoneInvalid": "Phone number is invalid"
+    }
+  }

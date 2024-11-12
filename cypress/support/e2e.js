@@ -14,7 +14,8 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-//import './commands'
-
+import './commands'
+import './newCommands.cy'
+//import './random/misComandos' -> no cree random dentro de support y el archivo tampoco
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
